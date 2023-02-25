@@ -1,13 +1,20 @@
 
 package com.mycompany.clase_1;
 
+import java.util.Scanner;
+
 
 public class Ejercicio_3 {
      public static void main(String[] args) {
         double horas, razon, retencion, salario_bruto, salario_neto;
         
-        horas = 48;
-        razon = 5;
+        Scanner entrada = new Scanner(System.in);
+        
+         System.out.println("Digite la cantidad de horas: ");
+        horas = entrada.nextDouble();
+        
+         System.out.println("Digite el valor de la razon: ");
+        razon = entrada.nextDouble();
         
         salario_bruto = horas*razon;
         retencion = salario_bruto*0.125;
