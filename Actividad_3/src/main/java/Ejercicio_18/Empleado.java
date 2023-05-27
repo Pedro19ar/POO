@@ -22,7 +22,5 @@ public class Empleado {
         retencion = salarioBruto*porcentaje;
         salarioNeto = salarioBruto-retencion;
         return salarioNeto;
-    }
-   
-    
+    } 
 }
